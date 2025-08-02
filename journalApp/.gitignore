@@ -37,3 +37,6 @@ test-output/
 *.jar
 *.war
 *.ear
+*.gz
+*.bak
+*.out

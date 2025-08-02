@@ -1,0 +1,33 @@
+# src/main/resources/application.yml
+
+spring:
+  data:
+    redis:
+      url: redis://default:5x9r03zBlQQSZVHmtKIMJieAowzhiT6A@redis-19932.crce182.ap-south-1-1.ec2.redns.redis-cloud.com:19932
+
+    mongodb:
+      uri: mongodb+srv://prachimehar841:SyT3FCyWkKz7a6Tc@cluster0.de5zju5.mongodb.net/?retryWrites=true&w=majority
+      database: journalApp
+      auto-index-creation: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: prachimehar841@gmail.com
+    password: wabg gbgn dwcf qadu
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+logging:
+  level:
+    com.prachimehar.journalApp: DEBUG
+
+weather:
+  api:
+    key: 81dee8ddaae55e657a8a036938839c07
+
+

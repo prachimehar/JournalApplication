@@ -1,0 +1,4 @@
+2025-08-02 14:10:04 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-02 14:10:04 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-02 14:10:04 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-08-02 14:10:23 WARN  c.p.j.service.JournalEntryService - Key not found in Redis: {}
